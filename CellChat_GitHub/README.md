@@ -2,17 +2,6 @@
 
 This repository contains the CellChat analysis used to investigate inferred cell-cell communication changes between Parkinson's disease (PD) and control conditions from single-cell H3K27ac CUT&Tag-derived gene activity profiles.
 
-## Scope
-
-This repository contains **CellChat analysis only**.
-
-It does not contain:
-- Cicero analysis
-- peak-to-gene or peak/promoter annotation
-- raw sequencing data
-- the complete Seurat object
-- HPC/R package libraries
-
 ## Analysis overview
 
 1. Load the preprocessed Seurat object containing the `gene_activity` assay.
